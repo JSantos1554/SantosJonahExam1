@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout11"
+        style="@style/Relative1"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Image"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/scarlett" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/CustomHeader"
+            android:layout_alignParentTop="true"
+            android:text="Scarlett Witch" />
+
+        <TextView
+            style="@style/Text2"
+            android:id="@+id/textView16"
+            android:text="Avengers" />
+
+        <TextView
+            android:id="@+id/textView19"
+            style="@style/CustomBody"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_below="@+id/imageView"
+            android:text="Currently an avenger who undergo experiments with the Scepter under Hydra Cell and received superpowers such as telekinesis, telepathy, and energy manipulation." />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout12"
+        style="@style/Relative2"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout11">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            style="@style/Image"
+            app:srcCompat="@drawable/chii" />
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/CustomHeader"
+            android:text="Chi" />
+
+        <TextView
+            android:id="@+id/textView17"
+            style="@style/Text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persocom Robot" />
+
+        <TextView
+            android:id="@+id/textView20"
+            style="@style/CustomBody"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_below="@+id/imageView2"
+            android:text="Chii is a fictional character in the series Chobits a Chi is a Chobit, a type of personal computer called a persocom that is far more technologically advanced than regular persocoms, and who are said to possess true machine intelligence rather than relying on software programs like other persocoms. " />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout13"
+        style="@style/Relative1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout12">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            style="@style/Image"
+            app:srcCompat="@drawable/sakura" />
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/CustomHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sakura Kinomoto" />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/Text2"
+            android:text="Clowcard Master" />
+
+        <TextView
+            android:id="@+id/textView21"
+            style="@style/CustomBody"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_below="@+id/imageView3"
+            android:text="Sakura is an extremely energetic, cute, beautiful, sweet, cheerful and a very kind character. She is very athletic. She is the protector and holder of clowcards " />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
