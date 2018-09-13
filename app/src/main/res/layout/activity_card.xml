@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="91dp"
             android:layout_below="@+id/imageView2"
-            android:text="Chi is a Chobit, a type of personal computer called a persocom that is far more technologically advanced than regular persocoms, and who are said to possess true machine intelligence. " />
+            android:text="Chi is a Chobit, a type of personal computer called a persocom that is far more technologically advanced and who are said to possess true machine intelligence. " />
 
     </RelativeLayout>
 
